@@ -274,7 +274,9 @@ a:focus {
     justify-content: flex-start;
     flex-direction: row;
     z-index: 1;
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 
   }
 
