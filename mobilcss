@@ -347,6 +347,7 @@ a:focus {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background: #ECD400;
     border-radius: 1000px;
     color: black;
@@ -424,6 +425,18 @@ a:focus {
     border-radius: 1000px;
     color: #202E55;
     font-family: 'Poppins', sans-serif;
+    justify-content: center;
+
+    
+  }
+
+
+  a:link{
+    color: #202E55;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    font-style: normal;
     
   }
 
