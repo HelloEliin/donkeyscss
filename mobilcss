@@ -1,3 +1,6 @@
+
+
+
 article,
 aside,
 details,
@@ -415,8 +418,8 @@ a:focus {
   .dot2{
     /* måste centrera texten här*/
 
-    height: 25px;
-    width: 40%;
+    height: 35px;
+    width: 60%;
     display: inline-flex;
     align-items: center;
     line-height: 1;
@@ -426,6 +429,7 @@ a:focus {
     color: #202E55;
     font-family: 'Poppins', sans-serif;
     justify-content: center;
+    margin-top: 50px;
 
     
   }
@@ -784,4 +788,3 @@ a:focus {
     height: 1px;
     background-color:#202E55;
   }
-
