@@ -52,16 +52,8 @@
             <div>
                 <h1>Så kliv in i donkeys magiska värld - där<br>
                     barn alltid är barn.</h1>
-            </div>
-        </div>
-
-        <div class="presentation-box">
-            <div>
-                <p>Barnkläder och bebiskläder
-                    som underlättar vardagen och som fungerar lika bra
-                    för fartfyllda utomhusaktiviteter som till fest. </p>
-                <br>
-                <a class="dot2" href="about.asp">Våra kläder</a>
+		    
+		     <a class="dot2" href="about.asp">Våra kläder</a>
             </div>
         </div>
 
