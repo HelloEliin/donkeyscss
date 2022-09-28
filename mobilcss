@@ -360,7 +360,7 @@ a:focus {
 
   .start-box{
     position: absolute;
-    width: 30%;
+    width: 50%;
     height: 50%; 
     left: 50px;
     top: 90px;
@@ -370,7 +370,7 @@ a:focus {
   .start-box > div h1 {
 
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
     color: #202E55;
 
 
