@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="mobil2.css">
+
+    <title>Donkeys</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+
+    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+    <div class="wrapper">
+
+
+
+        <div class="flex-container">
+            <div class="joho"><img src="Color=Light.png" width="59.99" height="69.98" style="max-width:100%;height:auto;"></div>
+            <div class="link"><a href="default.asp">Våra kläder</a></div>
+            <div class="link"><a href="news.asp">Outlet</a></div>
+            <div class="link"><a href="contact.asp">Butiker</a></div>
+            <div class="link"><a href="about.asp">Kundservice</a></div>
+            <div class="link"><a href="about.asp">Om oss</a></div>
+
+
+            <div class="dropdown">
+                <button class="dropbtn">Meny</button>
+                <div class="dropdown-content"></div>
+            </div>
+
+
+        </div>
+
+
+
+        <!--<div class="image">
+            <img src="Hero-2.png" width="1440" style="max-width:100%;height:auto;">
+        </div> -->
+
+
+        <picture class="heroimage">
+            <source media="(max-width:600px)" srcset="HeroMellan.jpeg">
+            <source media="(min-width:900px)" srcset="Hero-2.png">
+            <img src="HeroMellan.jpeg" alt="Baby">
+        </picture>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <span class="dot">
+            <p>Get in touch</p>
+        </span>
+
+
+
+        <div class="start-box">
+            <div>
+                <h1>Så kliv in i donkeys magiska värld - där<br>
+                    barn alltid är barn.</h1>
+            </div>
+        </div>
+
+
+
+        <div class="presentation-box">
+            <div>
+                <p>Donkey har kläder till barn, från nyfödd och baby, till barn
+                    i förskole- och skolåldern. Barnkläder och bebiskläder
+                    som underlättar vardagen och som fungerar lika bra
+                    för fartfyllda utomhusaktiviteter som till fest. </p>
+                <br>
+                <a class="dot2" href="about.asp">Våra kläder</a>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="sektion">
+
+            <div class="nyheter">
+                <p style="color: #A2C3E8;">HÖSTKLÄDER</p>
+                <br>
+                <h1>Härliga höstnyheter</h1>
+
+                <br>
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+                    Donec at sem arcu. Orci varius natoque penatibus et<br>
+                    magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <br>
+
+                <a class="dot2" href="about.asp">Shoppa nu</a>
+            </div>
+
+
+
+            <!--<div class="bebis">
+                <img src="BebisLiten.png" width="656">
+            </div>-->
+
+
+            <picture class="bebis">
+                <source media="(max-width:600px)" srcset="BebisLiten.png">
+                <source media="(min-width:900px)" srcset="IMG.png">
+                <img src="BebisLiten.png" alt="Baby">
+            </picture>
+
+
+        </div>
+
+
+        <span class="dot">
+            <p>Get in touch</p>
+        </span>
+
+
+
+        <div class="sektion2">
+
+            <picture class="bebis2">
+                <source media="(max-width:600px)" srcset="bebis3.png">
+                <source media="(min-width:900px)" srcset="bebis2.png">
+                <img src="bebis3.png" alt="Baby">
+            </picture>
+            <br>
+
+            <div class="child2">
+
+                <p style="color: #A2C3E8;">VÅRT SORTIMENT</p>
+                <br>
+                <h1>Hållbara plagg</h1>
+
+                <br>
+
+                <p>Med 100% hållbarhetsmärkt bomull i hela vår kollektion gör
+                    vi kläder till baby och barn, med också kläder till den
+                    nyfödda familjemedlemmen.</p>
+                <br>
+
+                <a class="dot2" href="about.asp">Läs mer</a>
+            </div>
+        </div>
+
+
+
+
+
+
+        <div class="sektion3">
+
+            <div class="child3">
+                <p style="color: #A2C3E8;">STÄLL EN FRÅGA</p>
+                <h1>Har du något du funderar över?</h1><br>
+                <p>
+                    Med 100% hållbarhetsmärkt bomull i hela vår kollektion gör
+                    vi kläder till barn och baby, men också kläder till den
+                    nyfödda familjemedlemmen.
+                </p>
+            </div>
+
+
+            <div class="child4">
+
+                <form action="/action.php" method="get">
+
+                    <label for="fname"> Namn </label><br>
+                    <input type="text" id="fnamn" namn="fnamn" placeholder="Skriv in ditt namn"><br>
+
+                    <label for="email">Email </label><br>
+                    <input type="text" id="email" namn="email" placeholder="Fyll i din mailadress"><br>
+                </form>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+        <div class="sektion4">
+            <div class="child5">
+
+                <p>Välj underkategori</p><br>
+
+                <div class="radioButton">
+                    <input id="radio-1" type="radio" name="radio" value="1" checked>
+                    <label for="radio-1">Vald kategori</label>
+                </div>
+
+                <div class="radioButton">
+                    <input id="radio-2" type="radio" name="radio" value="2">
+                    <label for="radio-2">Kategori 1</label>
+                </div>
+
+                <div class="radioButton">
+                    <input id="radio-3" type="radio" name="radio" value="3">
+                    <label for="radio-3">Rensa alternativ</label>
+                </div>
+
+                <div class="radioButton">
+                    <input id="radio-4" type="radio" name="radio" value="4">
+                    <label for="radio-4">Kategori 1</label>
+                </div>
+
+                <div class="radioButton">
+                    <input id="radio-5" type="radio" name="radio" value="5">
+                    <label for="radio-5">Kategori 1</label>
+                </div>
+
+                <div class="radioButton">
+                    <input id="radio-6" type="radio" name="radio" value="6">
+                    <label for="radio-6">Skicka</label>
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="sektion5">
+
+
+            <!---<div class="child6">
+                <img src="Fullwith.jpg" style="max-width:1440px;height:auto;">
+            </div>-->
+
+
+
+            <picture class="sistabebis">
+                <source media="(max-width:600px)" srcset="sistaBebisen.jpeg">
+                <source media="(min-width:900px)" srcset="Fullwith.jpg">
+                <img src="sistaBebisen.jpeg" alt="Baby">
+            </picture>
+
+
+            <div class="child7">
+
+                <h1>
+                    Förändringen börjar nu!
+                </h1>
+                <br>
+
+                <p>
+                    Vi kommer alltid utgå från barnens bästa och vår<br>
+                    hållbarhetsvision är att göra barnklädesmarknaden mer<br>
+                    hållbar - för jorden går i arv, och det ska våra kläder<br>
+                    också göra.
+                </p>
+
+                <a class="dot7" href="about.asp">Vårt hållbarhetslöfte</a>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+        <div class="sektion6">
+
+            <div class="vitdonkey">
+                <img src="Logo.png" alt="vitdonkey" width="190" height="220" style="max-width:100%;height:auto;">
+            </div>
+
+            <div class="child8">
+
+                <h1>Donkey Clothing</h1>
+                <br>
+                <p>
+                    Donkey har kläder till barn, från nyfödd och baby, till barn
+                    i förskole- och skolåldern. Barnkläder och bebiskläder
+                    som underlättar vardagen och som fungerar lika bra
+                    för fartfyllda utomhusaktiviteter som till fest. Med 100% hållbarhetsmärkt
+                    bomull i hela våran kollektion gör vi kläder till baby och barn, men också
+                    kläder till den nyfödda familjemedlemmen. Helt enkelt kläder som låter barn vara barn.</p>
+            </div>
+
+            <div class="contact">
+                <p>Donkey Clothing<br>
+                    194 61 Stockholm<br>
+                    Sweden<br></p>
+
+                <div class="line-1"></div>
+
+                <p>+46 0 000 000 00</p>
+
+                <div class="line-1"></div>
+
+                <p>info@donkey.com</p>
+                <br>
+            </div>
+
+
+            <div class="line-2"></div>
+
+            <a href="contact.asp">Om Donkey</a>
+            <a href="contact.asp">Hitta våra butiker</a>
+            <a href="contact.asp">Jobba hos oss</a>
+            <a href="contact.asp">Press</a>
+            <a href="contact.asp">Privacy Policy</a>
+            <a href="contact.asp">Cookie Policy</a>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>
