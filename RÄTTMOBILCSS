@@ -869,6 +869,12 @@ select {
     font-family: 'Poppins', sans-serif;
     
   }
+  
+  
+  .sistabebis img{
+    width: 100%;
+}
+
 
 
 
